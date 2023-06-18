@@ -3,8 +3,17 @@
     // Represents the player in the game.
     public class Hero
     {
+
+        public int StillCanPlaySteps { get; set; } =0;
+
+        public CallbackDelegate Callback { get; set; }
+        public bool IsPoisoned {get; set; } = false;
+
         // Creates a new player that starts at the given location.
         public Hero(Location start) => Location = start;
+
+        public delegate void CallbackDelegate(Hero hero);
+
         // Contains all the commands that a player can access.
         public CommandList CommandList { get; } = new CommandList();
         // Represents the distance the player can sense danger.
@@ -34,5 +43,10 @@
             IsAlive = false;
             CauseOfDeath = cause;
         }
+
+        public void HandelCallback(){
+            Callback?.Invoke(this);
+        }
+
     }
 }
