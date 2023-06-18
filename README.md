@@ -18,3 +18,6 @@ This is a game in which we are trapped in a room with a monster, sword and poiso
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
 [How to update status badges](docs/how-to-update-badges.md)
+
+        
+[![formatting](https://github.com/heyravnvir/IOT1026-Project/actions/workflows/formatting.yml/badge.svg)](https://github.com/heyravnvir/IOT1026-Project/actions/workflows/formatting.yml)
