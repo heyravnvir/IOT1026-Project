@@ -47,6 +47,7 @@
             PlaceSword(map, start);
             AddRooms(RoomType.Pit, map);
             InitializeMonsters(map);
+            AddRooms(RoomType.Toxic, map);
             return start;
         }
 
