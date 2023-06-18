@@ -25,8 +25,17 @@
             // This is the game loop. Each turn runs through this while loop once.
             while (!Hero.IsVictorious && Hero.IsAlive)
             {
+                // check if hero is poisned 
+
+                if(Hero.StillCanPlaySteps <=-1 && Hero.IsPoisoned){
+                    Hero.HandelCallback();
+                    ConsoleHelper.WriteLine($"You Lost, because of {Hero.CauseOfDeath}\n",ConsoleColor.Red);
+                    return;
+                }
+
                 ICommand command = GetCommand();
                 Console.Clear();
+
                 if (Hero.IsAlive) // Player did not quit the game
                 {
                     command.Execute(Hero, Map);
@@ -39,6 +48,11 @@
                         currentLocation = Hero.Location;
                         CurrentRoom.Activate(Hero, Map);
                     }
+
+                    if (Hero.IsPoisoned){
+                        Hero.StillCanPlaySteps-=1;
+                    }
+
                 }
                 Display.ScreenUpdate(Hero, Map);
             }
