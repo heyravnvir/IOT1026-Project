@@ -12,7 +12,8 @@
 </p>
 
 # IOT1026-Project
-Write a description of your `Room` and `Monster` class here.
+This is a game in which we are trapped in a room with a monster, sword and poison. we need to find the sward and exit the room by avoiding the monster, pits and poisons.
+
 
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
