@@ -1,4 +1,4 @@
-namespace MinotaurLabyrinth
+﻿namespace MinotaurLabyrinth
 {
     /// <summary>
     /// this room is filled with poison in air so the player can only move 5 steps before he dies.

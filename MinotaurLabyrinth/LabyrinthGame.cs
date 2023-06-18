@@ -27,9 +27,10 @@
             {
                 // check if hero is poisned 
 
-                if(Hero.StillCanPlaySteps <=-1 && Hero.IsPoisoned){
+                if (Hero.StillCanPlaySteps <= -1 && Hero.IsPoisoned)
+                {
                     Hero.HandelCallback();
-                    ConsoleHelper.WriteLine($"You Lost, because of {Hero.CauseOfDeath}\n",ConsoleColor.Red);
+                    ConsoleHelper.WriteLine($"You Lost, because of {Hero.CauseOfDeath}\n", ConsoleColor.Red);
                     return;
                 }
 
@@ -49,8 +50,9 @@
                         CurrentRoom.Activate(Hero, Map);
                     }
 
-                    if (Hero.IsPoisoned){
-                        Hero.StillCanPlaySteps-=1;
+                    if (Hero.IsPoisoned)
+                    {
+                        Hero.StillCanPlaySteps -= 1;
                     }
 
                 }

@@ -4,10 +4,10 @@
     public class Hero
     {
 
-        public int StillCanPlaySteps { get; set; } =0;
+        public int StillCanPlaySteps { get; set; } = 0;
 
         public CallbackDelegate Callback { get; set; }
-        public bool IsPoisoned {get; set; } = false;
+        public bool IsPoisoned { get; set; } = false;
 
         // Creates a new player that starts at the given location.
         public Hero(Location start) => Location = start;
@@ -44,7 +44,8 @@
             CauseOfDeath = cause;
         }
 
-        public void HandelCallback(){
+        public void HandelCallback()
+        {
             Callback?.Invoke(this);
         }
 
