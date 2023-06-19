@@ -74,6 +74,7 @@
             }
             ConsoleHelper.WriteLine($"You dice: {number} when you are playing the dice game!", ConsoleColor.Yellow);
             return number;
+            
         }
 
         protected virtual bool GetUserSelectOption()
