@@ -17,3 +17,5 @@ This is a game in which there is a player who got stuck in a room  with a swod a
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
 [How to update status badges](docs/how-to-update-badges.md)
+
+[![.NET Core Desktop](https://github.com/heyravnvir/IOT1026-Project/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/heyravnvir/IOT1026-Project/actions/workflows/dotnet-desktop.yml)
