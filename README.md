@@ -12,6 +12,9 @@
 </p>
 
 # IOT1026-Project
+        
+Special Thanks to Chong he helped me and teach me alot in this assignment.
+        
 This is a game in which there is a player who got stuck in a room  with a swod and a monster we have to move the player by providing directions like north, south, east, west and player will move according to the commands we hava to find the swod and exit the room before the monster catch us.
 
 [Assignment Instructions](docs/instructions.md)  
