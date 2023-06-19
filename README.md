@@ -12,7 +12,7 @@
 </p>
 
 # IOT1026-Project
-Write a description of your `Room` and `Monster` class here.
+This is a game in which there is a player who got stuck in a room  with a swod and a monster we have to move the player by providing directions like north, south, east, west and player will move according to the commands we hava to find the swod and exit the room before the monster catch us.
 
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
