@@ -21,3 +21,4 @@ This is a game in which there is a player who got stuck in a room  with a swod a
 [How to start coding](docs/how-to-use.md)  
 [How to update status badges](docs/how-to-update-badges.md)
 
+[![ci](https://github.com/heyravnvir/IOT1026-Project/actions/workflows/ci.yml/badge.svg?branch=codespace-heyravnvir-turbo-spoon-r95xvw64g7xhxv9v)](https://github.com/heyravnvir/IOT1026-Project/actions/workflows/ci.yml)
