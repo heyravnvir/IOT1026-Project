@@ -5,6 +5,7 @@
     {
 
         public int StillCanPlaySteps { get; set; } = 0;
+        
 
         public CallbackDelegate Callback { get; set; }
         public bool IsPoisoned { get; set; } = false;
